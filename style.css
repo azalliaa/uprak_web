@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: cadetblue;
+}
+
+.header {
+  background: #868686;
+  color:beige;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #a0a0a0;
+  border: 3px solid #121212;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sidebar {
+  background: #c8c8c8;
+  width: 150px;
+  padding: 10px;
+}
+
+.sidebar h3 {
+  background: #dedede;
+  color: #868487;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+  font-size: 12px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px 10px;
+  background: #dedede;
+  color: #868487;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.sidebar a:hover {
+  background: cadetblue;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content h2 {
+  color: beige;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.footer {
+  color: beige;
+  text-align: center;
+  padding: 30px;
+  font-size: 15px;
+  height: 15px;
+}
+
+#gambar-profil {
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  border-radius: 50%;
+  border: 2px solid #4b0082;
+}
